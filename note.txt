@@ -1,0 +1,10 @@
+deploying a json file using node
+ 1.crwate a index.js file in server fopder
+ 2.we have to update the script key in as "node index.js"
+ 3.update JSON server version to the stable version from unstable version so first remove from the dependcy
+   - to get the stable version od json server "  npm i json-server  /  npm i json-server@0.17.4   "
+   -now the version will be updated  in package.json file
+ 4.create a gitignore file inorder to add node modeule folder 
+ 5.we have to define json sever to run json file using index.js file   node index.js  
+   -import json server in inidex file 
+   -create  server for running json file 
